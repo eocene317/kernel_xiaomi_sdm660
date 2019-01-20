@@ -251,7 +251,7 @@ static int f2fs_set_qf_name(struct super_block *sb, int qtype,
 		f2fs_msg(sb, KERN_ERR,
 			"Cannot change journaled "
 			"quota options when quota turned on");
-		return -EINVAL;
+		return -ENOMEM;
 	}
 	if (f2fs_sb_has_quota_ino(sb)) {
 		f2fs_msg(sb, KERN_INFO,

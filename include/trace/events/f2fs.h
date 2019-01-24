@@ -144,6 +144,9 @@ TRACE_DEFINE_ENUM(CP_TRIMMED);
 struct f2fs_sb_info;
 struct f2fs_io_info;
 struct extent_info;
+struct f2fs_sb_info;
+struct f2fs_io_info;
+struct extent_info;
 struct victim_sel_policy;
 struct f2fs_map_blocks;
 
